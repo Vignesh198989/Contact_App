@@ -1,0 +1,12 @@
+/* 
+  Localised.strings
+  Contacts
+
+ //  Created by Vignesh Radhakrishnan on 06/02/20.
+*/
+
+"first_name" = "First Name";
+"last_name" = "Last Name";
+"mobile" = "Mobile";
+"email" = "Email";
+
