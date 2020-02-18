@@ -32,6 +32,11 @@
 		764BBFC323FC2EBB007C188C /* UIViewController + Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 764BBFC223FC2EBB007C188C /* UIViewController + Alert.swift */; };
 		764BBFC723FC2F70007C188C /* ContactAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 764BBFC623FC2F70007C188C /* ContactAPI.swift */; };
 		764BBFCA23FC308B007C188C /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 764BBFC923FC308B007C188C /* Constants.swift */; };
+		764BBFD123FC346F007C188C /* InformationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 764BBFCD23FC346F007C188C /* InformationTableViewCell.swift */; };
+		764BBFD223FC346F007C188C /* ContactDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 764BBFCE23FC346F007C188C /* ContactDetailsViewController.swift */; };
+		764BBFD323FC346F007C188C /* ContactDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 764BBFCF23FC346F007C188C /* ContactDetailViewModel.swift */; };
+		764BBFD423FC346F007C188C /* InformationTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 764BBFD023FC346F007C188C /* InformationTableViewCell.xib */; };
+		764BBFD723FC3538007C188C /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = 764BBFD623FC3538007C188C /* Util.swift */; };
 		AC319BD68C7AD4AF359D1F43 /* Pods_Contact.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A985EBDAF7FE634DD8B39D26 /* Pods_Contact.framework */; };
 /* End PBXBuildFile section */
 
@@ -68,6 +73,11 @@
 		764BBFC623FC2F70007C188C /* ContactAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactAPI.swift; sourceTree = "<group>"; };
 		764BBFC923FC308B007C188C /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		764BBFCB23FC3181007C188C /* Contact-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Contact-Bridging-Header.h"; sourceTree = "<group>"; };
+		764BBFCD23FC346F007C188C /* InformationTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InformationTableViewCell.swift; sourceTree = "<group>"; };
+		764BBFCE23FC346F007C188C /* ContactDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactDetailsViewController.swift; sourceTree = "<group>"; };
+		764BBFCF23FC346F007C188C /* ContactDetailViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactDetailViewModel.swift; sourceTree = "<group>"; };
+		764BBFD023FC346F007C188C /* InformationTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InformationTableViewCell.xib; sourceTree = "<group>"; };
+		764BBFD623FC3538007C188C /* Util.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Util.swift; sourceTree = "<group>"; };
 		76DD141923FB15D400FE5AFE /* ContactCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactCell.swift; sourceTree = "<group>"; };
 		76DD141A23FB15D400FE5AFE /* ContactsListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsListViewController.swift; sourceTree = "<group>"; };
 		76DD141B23FB15D400FE5AFE /* ContactsListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsListViewModel.swift; sourceTree = "<group>"; };
@@ -137,6 +147,8 @@
 		764BBF2623FB0D56007C188C /* Contact */ = {
 			isa = PBXGroup;
 			children = (
+				764BBFD523FC352C007C188C /* Common */,
+				764BBFCC23FC345A007C188C /* Contact Detail */,
 				764BBFC923FC308B007C188C /* Constants.swift */,
 				764BBFCB23FC3181007C188C /* Contact-Bridging-Header.h */,
 				764BBFC123FC2EA6007C188C /* Alert */,
@@ -208,6 +220,25 @@
 				764BBFC223FC2EBB007C188C /* UIViewController + Alert.swift */,
 			);
 			path = Alert;
+			sourceTree = "<group>";
+		};
+		764BBFCC23FC345A007C188C /* Contact Detail */ = {
+			isa = PBXGroup;
+			children = (
+				764BBFCE23FC346F007C188C /* ContactDetailsViewController.swift */,
+				764BBFCF23FC346F007C188C /* ContactDetailViewModel.swift */,
+				764BBFCD23FC346F007C188C /* InformationTableViewCell.swift */,
+				764BBFD023FC346F007C188C /* InformationTableViewCell.xib */,
+			);
+			path = "Contact Detail";
+			sourceTree = "<group>";
+		};
+		764BBFD523FC352C007C188C /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				764BBFD623FC3538007C188C /* Util.swift */,
+			);
+			path = Common;
 			sourceTree = "<group>";
 		};
 		76DD141823FB15D400FE5AFE /* Contact List */ = {
@@ -348,6 +379,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				764BBFD423FC346F007C188C /* InformationTableViewCell.xib in Resources */,
 				764BBF3723FB0D58007C188C /* LaunchScreen.storyboard in Resources */,
 				764BBF3423FB0D58007C188C /* Assets.xcassets in Resources */,
 				764BBFA823FC2C7E007C188C /* Main.storyboard in Resources */,
@@ -435,15 +467,19 @@
 			files = (
 				764BBFB523FC2DA8007C188C /* FormField.swift in Sources */,
 				764BBFCA23FC308B007C188C /* Constants.swift in Sources */,
+				764BBFD323FC346F007C188C /* ContactDetailViewModel.swift in Sources */,
+				764BBFD123FC346F007C188C /* InformationTableViewCell.swift in Sources */,
 				764BBFB323FC2DA2007C188C /* ContactsService.swift in Sources */,
 				764BBFBC23FC2E1E007C188C /* ImageDownloader.swift in Sources */,
 				764BBF3223FB0D56007C188C /* Contact.xcdatamodeld in Sources */,
 				764BBFB823FC2DC0007C188C /* URLManager.swift in Sources */,
 				764BBFB123FC2D91007C188C /* ContactsListViewModel.swift in Sources */,
+				764BBFD223FC346F007C188C /* ContactDetailsViewController.swift in Sources */,
 				764BBF2C23FB0D56007C188C /* ViewController.swift in Sources */,
 				764BBF4E23FB0DE4007C188C /* AppDelegate.swift in Sources */,
 				764BBFC023FC2E71007C188C /* CenterSpinnerProtocol.swift in Sources */,
 				764BBFB623FC2DA8007C188C /* Contact.swift in Sources */,
+				764BBFD723FC3538007C188C /* Util.swift in Sources */,
 				764BBF8523FB1640007C188C /* SceneDelegate.swift in Sources */,
 				764BBFC323FC2EBB007C188C /* UIViewController + Alert.swift in Sources */,
 				764BBFB723FC2DAB007C188C /* Parser.swift in Sources */,

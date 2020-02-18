@@ -64,13 +64,13 @@ final class ContactsListViewController: UIViewController,CentralSpinnerProtocol 
         }
     }
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-//        if segue.identifier == "viewContact", let destination = segue.destination as? ContactDetailsViewController {
-//            if let indexPath = selectedIndexPath {
-//                var data = self.viewModel.getContactListSection()[indexPath.section].contacts[indexPath.row]
-//                destination.viewModel = ContactDetailViewModel .init(contact: &data)
-//                destination.delegate = self
-//            }
-//        }
+        if segue.identifier == "viewContact", let destination = segue.destination as? ContactDetailsViewController {
+            if let indexPath = selectedIndexPath {
+                var data = self.viewModel.getContactListSection()[indexPath.section].contacts[indexPath.row]
+                destination.viewModel = ContactDetailViewModel .init(contact: &data)
+                destination.delegate = self
+            }
+        }
     }
 }
 
@@ -111,10 +111,10 @@ extension ContactsListViewController : UITableViewDelegate {
     }
 }
 
-//extension ContactsListViewController : ContactDetailsDelegate {
-//    func didUpdateContactInfo() {
-//        self.contactsListTableView.reloadData()
-//    }
-//
-//
-//}
+extension ContactsListViewController : ContactDetailsDelegate {
+    func didUpdateContactInfo() {
+        self.contactsListTableView.reloadData()
+    }
+
+
+}
