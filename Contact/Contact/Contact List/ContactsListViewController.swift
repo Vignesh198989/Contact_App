@@ -47,10 +47,10 @@ final class ContactsListViewController: UIViewController,CentralSpinnerProtocol 
     }
     
      @objc func addButtonTapped() {
-//        let addViewModel = AddContactViewModel .init(contact: Contact .init())
-//        let addVC = AddContactViewController .init(withViewModel: addViewModel)
-//        let nav = UINavigationController .init(rootViewController: addVC)
-//        self.present(nav, animated: true, completion: nil)
+        let addViewModel = AddContactViewModel .init(contact: Contact .init())
+        let addVC = AddContactViewController .init(withViewModel: addViewModel)
+        let nav = UINavigationController .init(rootViewController: addVC)
+        self.present(nav, animated: true, completion: nil)
     }
     
     private func fetchContacts() {
@@ -115,6 +115,4 @@ extension ContactsListViewController : ContactDetailsDelegate {
     func didUpdateContactInfo() {
         self.contactsListTableView.reloadData()
     }
-
-
 }

@@ -37,6 +37,19 @@
 		764BBFD323FC346F007C188C /* ContactDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 764BBFCF23FC346F007C188C /* ContactDetailViewModel.swift */; };
 		764BBFD423FC346F007C188C /* InformationTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 764BBFD023FC346F007C188C /* InformationTableViewCell.xib */; };
 		764BBFD723FC3538007C188C /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = 764BBFD623FC3538007C188C /* Util.swift */; };
+		764BBFE723FC35F5007C188C /* EditContactViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 764BBFDA23FC35F5007C188C /* EditContactViewModel.swift */; };
+		764BBFE823FC35F5007C188C /* EditContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 764BBFDB23FC35F5007C188C /* EditContactViewController.swift */; };
+		764BBFE923FC35F5007C188C /* EditContactViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 764BBFDC23FC35F5007C188C /* EditContactViewController.xib */; };
+		764BBFEA23FC35F5007C188C /* BaseFormViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 764BBFDE23FC35F5007C188C /* BaseFormViewModel.swift */; };
+		764BBFEB23FC35F5007C188C /* FormTextFieldCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 764BBFDF23FC35F5007C188C /* FormTextFieldCell.xib */; };
+		764BBFEC23FC35F5007C188C /* BaseFormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 764BBFE023FC35F5007C188C /* BaseFormViewController.swift */; };
+		764BBFED23FC35F5007C188C /* FormTextFieldCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 764BBFE123FC35F5007C188C /* FormTextFieldCell.swift */; };
+		764BBFEF23FC35F5007C188C /* AddContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 764BBFE423FC35F5007C188C /* AddContactViewController.swift */; };
+		764BBFF023FC35F5007C188C /* AddContactViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 764BBFE523FC35F5007C188C /* AddContactViewController.xib */; };
+		764BBFF123FC35F5007C188C /* AddContactViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 764BBFE623FC35F5007C188C /* AddContactViewModel.swift */; };
+		764BBFF423FC3692007C188C /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 764BBFF323FC3692007C188C /* Validation.swift */; };
+		764BBFF823FC375C007C188C /* InvalidSample.json in Resources */ = {isa = PBXBuildFile; fileRef = 764BBFF623FC375C007C188C /* InvalidSample.json */; };
+		764BBFF923FC375C007C188C /* Sample.json in Resources */ = {isa = PBXBuildFile; fileRef = 764BBFF723FC375C007C188C /* Sample.json */; };
 		AC319BD68C7AD4AF359D1F43 /* Pods_Contact.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A985EBDAF7FE634DD8B39D26 /* Pods_Contact.framework */; };
 /* End PBXBuildFile section */
 
@@ -78,6 +91,19 @@
 		764BBFCF23FC346F007C188C /* ContactDetailViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactDetailViewModel.swift; sourceTree = "<group>"; };
 		764BBFD023FC346F007C188C /* InformationTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InformationTableViewCell.xib; sourceTree = "<group>"; };
 		764BBFD623FC3538007C188C /* Util.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Util.swift; sourceTree = "<group>"; };
+		764BBFDA23FC35F5007C188C /* EditContactViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditContactViewModel.swift; sourceTree = "<group>"; };
+		764BBFDB23FC35F5007C188C /* EditContactViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditContactViewController.swift; sourceTree = "<group>"; };
+		764BBFDC23FC35F5007C188C /* EditContactViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EditContactViewController.xib; sourceTree = "<group>"; };
+		764BBFDE23FC35F5007C188C /* BaseFormViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseFormViewModel.swift; sourceTree = "<group>"; };
+		764BBFDF23FC35F5007C188C /* FormTextFieldCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FormTextFieldCell.xib; sourceTree = "<group>"; };
+		764BBFE023FC35F5007C188C /* BaseFormViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseFormViewController.swift; sourceTree = "<group>"; };
+		764BBFE123FC35F5007C188C /* FormTextFieldCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FormTextFieldCell.swift; sourceTree = "<group>"; };
+		764BBFE423FC35F5007C188C /* AddContactViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddContactViewController.swift; sourceTree = "<group>"; };
+		764BBFE523FC35F5007C188C /* AddContactViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddContactViewController.xib; sourceTree = "<group>"; };
+		764BBFE623FC35F5007C188C /* AddContactViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddContactViewModel.swift; sourceTree = "<group>"; };
+		764BBFF323FC3692007C188C /* Validation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Validation.swift; sourceTree = "<group>"; };
+		764BBFF623FC375C007C188C /* InvalidSample.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = InvalidSample.json; sourceTree = "<group>"; };
+		764BBFF723FC375C007C188C /* Sample.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Sample.json; sourceTree = "<group>"; };
 		76DD141923FB15D400FE5AFE /* ContactCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactCell.swift; sourceTree = "<group>"; };
 		76DD141A23FB15D400FE5AFE /* ContactsListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsListViewController.swift; sourceTree = "<group>"; };
 		76DD141B23FB15D400FE5AFE /* ContactsListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsListViewModel.swift; sourceTree = "<group>"; };
@@ -147,6 +173,8 @@
 		764BBF2623FB0D56007C188C /* Contact */ = {
 			isa = PBXGroup;
 			children = (
+				764BBFF223FC3692007C188C /* Validation */,
+				764BBFD823FC35F5007C188C /* Form */,
 				764BBFD523FC352C007C188C /* Common */,
 				764BBFCC23FC345A007C188C /* Contact Detail */,
 				764BBFC923FC308B007C188C /* Constants.swift */,
@@ -173,6 +201,7 @@
 		764BBF4023FB0D58007C188C /* ContactTests */ = {
 			isa = PBXGroup;
 			children = (
+				764BBFF523FC375C007C188C /* Resource */,
 				764BBF4123FB0D58007C188C /* ContactTests.swift */,
 				764BBF4323FB0D58007C188C /* Info.plist */,
 			);
@@ -239,6 +268,64 @@
 				764BBFD623FC3538007C188C /* Util.swift */,
 			);
 			path = Common;
+			sourceTree = "<group>";
+		};
+		764BBFD823FC35F5007C188C /* Form */ = {
+			isa = PBXGroup;
+			children = (
+				764BBFD923FC35F5007C188C /* Edit Contact */,
+				764BBFDD23FC35F5007C188C /* Base Form */,
+				764BBFE323FC35F5007C188C /* Add Contact */,
+			);
+			path = Form;
+			sourceTree = "<group>";
+		};
+		764BBFD923FC35F5007C188C /* Edit Contact */ = {
+			isa = PBXGroup;
+			children = (
+				764BBFDA23FC35F5007C188C /* EditContactViewModel.swift */,
+				764BBFDB23FC35F5007C188C /* EditContactViewController.swift */,
+				764BBFDC23FC35F5007C188C /* EditContactViewController.xib */,
+			);
+			path = "Edit Contact";
+			sourceTree = "<group>";
+		};
+		764BBFDD23FC35F5007C188C /* Base Form */ = {
+			isa = PBXGroup;
+			children = (
+				764BBFDE23FC35F5007C188C /* BaseFormViewModel.swift */,
+				764BBFDF23FC35F5007C188C /* FormTextFieldCell.xib */,
+				764BBFE023FC35F5007C188C /* BaseFormViewController.swift */,
+				764BBFE123FC35F5007C188C /* FormTextFieldCell.swift */,
+			);
+			path = "Base Form";
+			sourceTree = "<group>";
+		};
+		764BBFE323FC35F5007C188C /* Add Contact */ = {
+			isa = PBXGroup;
+			children = (
+				764BBFE423FC35F5007C188C /* AddContactViewController.swift */,
+				764BBFE523FC35F5007C188C /* AddContactViewController.xib */,
+				764BBFE623FC35F5007C188C /* AddContactViewModel.swift */,
+			);
+			path = "Add Contact";
+			sourceTree = "<group>";
+		};
+		764BBFF223FC3692007C188C /* Validation */ = {
+			isa = PBXGroup;
+			children = (
+				764BBFF323FC3692007C188C /* Validation.swift */,
+			);
+			path = Validation;
+			sourceTree = "<group>";
+		};
+		764BBFF523FC375C007C188C /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				764BBFF623FC375C007C188C /* InvalidSample.json */,
+				764BBFF723FC375C007C188C /* Sample.json */,
+			);
+			path = Resource;
 			sourceTree = "<group>";
 		};
 		76DD141823FB15D400FE5AFE /* Contact List */ = {
@@ -380,10 +467,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				764BBFD423FC346F007C188C /* InformationTableViewCell.xib in Resources */,
+				764BBFF023FC35F5007C188C /* AddContactViewController.xib in Resources */,
 				764BBF3723FB0D58007C188C /* LaunchScreen.storyboard in Resources */,
 				764BBF3423FB0D58007C188C /* Assets.xcassets in Resources */,
+				764BBFEB23FC35F5007C188C /* FormTextFieldCell.xib in Resources */,
 				764BBFA823FC2C7E007C188C /* Main.storyboard in Resources */,
 				764BBFA723FC2C7E007C188C /* LaunchScreen.storyboard in Resources */,
+				764BBFE923FC35F5007C188C /* EditContactViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -391,6 +481,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				764BBFF823FC375C007C188C /* InvalidSample.json in Resources */,
+				764BBFF923FC375C007C188C /* Sample.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -468,22 +560,30 @@
 				764BBFB523FC2DA8007C188C /* FormField.swift in Sources */,
 				764BBFCA23FC308B007C188C /* Constants.swift in Sources */,
 				764BBFD323FC346F007C188C /* ContactDetailViewModel.swift in Sources */,
+				764BBFE723FC35F5007C188C /* EditContactViewModel.swift in Sources */,
 				764BBFD123FC346F007C188C /* InformationTableViewCell.swift in Sources */,
 				764BBFB323FC2DA2007C188C /* ContactsService.swift in Sources */,
 				764BBFBC23FC2E1E007C188C /* ImageDownloader.swift in Sources */,
 				764BBF3223FB0D56007C188C /* Contact.xcdatamodeld in Sources */,
 				764BBFB823FC2DC0007C188C /* URLManager.swift in Sources */,
+				764BBFF123FC35F5007C188C /* AddContactViewModel.swift in Sources */,
 				764BBFB123FC2D91007C188C /* ContactsListViewModel.swift in Sources */,
 				764BBFD223FC346F007C188C /* ContactDetailsViewController.swift in Sources */,
 				764BBF2C23FB0D56007C188C /* ViewController.swift in Sources */,
 				764BBF4E23FB0DE4007C188C /* AppDelegate.swift in Sources */,
 				764BBFC023FC2E71007C188C /* CenterSpinnerProtocol.swift in Sources */,
+				764BBFF423FC3692007C188C /* Validation.swift in Sources */,
+				764BBFEF23FC35F5007C188C /* AddContactViewController.swift in Sources */,
 				764BBFB623FC2DA8007C188C /* Contact.swift in Sources */,
 				764BBFD723FC3538007C188C /* Util.swift in Sources */,
 				764BBF8523FB1640007C188C /* SceneDelegate.swift in Sources */,
 				764BBFC323FC2EBB007C188C /* UIViewController + Alert.swift in Sources */,
 				764BBFB723FC2DAB007C188C /* Parser.swift in Sources */,
+				764BBFED23FC35F5007C188C /* FormTextFieldCell.swift in Sources */,
 				764BBFBD23FC2E1E007C188C /* Network Manager.swift in Sources */,
+				764BBFE823FC35F5007C188C /* EditContactViewController.swift in Sources */,
+				764BBFEA23FC35F5007C188C /* BaseFormViewModel.swift in Sources */,
+				764BBFEC23FC35F5007C188C /* BaseFormViewController.swift in Sources */,
 				764BBFB223FC2D93007C188C /* ContactCell.swift in Sources */,
 				764BBFB423FC2DA8007C188C /* CurrentUser.swift in Sources */,
 				764BBFB023FC2D89007C188C /* ContactsListViewController.swift in Sources */,

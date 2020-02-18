@@ -73,11 +73,11 @@ final class ContactDetailsViewController: UIViewController,CentralSpinnerProtoco
         self.navigationController?.popViewController(animated: true)
     }
     @objc func editButtonTapped() {
-       // let editViewModel = EditContactViewModel .init(contact: self.viewModel.getEditContact())
-       // let editVC = EditContactViewController .init(withViewModel: editViewModel)
-      //  editVC.delegate = self
-    //    let nav = UINavigationController .init(rootViewController: editVC)
-    //    self.present(nav, animated: true, completion: nil)
+        let editViewModel = EditContactViewModel .init(contact: self.viewModel.getEditContact())
+        let editVC = EditContactViewController .init(withViewModel: editViewModel)
+        editVC.delegate = self
+        let nav = UINavigationController .init(rootViewController: editVC)
+        self.present(nav, animated: true, completion: nil)
     }
    private func fetchContactDetails() {
         animateCentralSpinner()
@@ -153,16 +153,16 @@ final class ContactDetailsViewController: UIViewController,CentralSpinnerProtoco
     }
 }
 
-//extension ContactDetailsViewController : BaseFormViewDelegate {
-  //  func didUpdateProfileImage(image: UIImage) {
-    //    contactPhotoView.image = image
- //   }
+extension ContactDetailsViewController : BaseFormViewDelegate {
+    func didUpdateProfileImage(image: UIImage) {
+        contactPhotoView.image = image
+    }
     
- //   func didFormUpdateSuccessfully() {
-  //      self.hasContactInfoUpdated = true
-  //      fetchContactDetails()
-   // }
-//}
+    func didFormUpdateSuccessfully() {
+        self.hasContactInfoUpdated = true
+        fetchContactDetails()
+    }
+}
 
 extension ContactDetailsViewController : UITableViewDataSource {
     func numberOfSections(in tableView: UITableView) -> Int {
