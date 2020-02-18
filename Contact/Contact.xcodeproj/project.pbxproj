@@ -50,6 +50,7 @@
 		764BBFF423FC3692007C188C /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 764BBFF323FC3692007C188C /* Validation.swift */; };
 		764BBFF823FC375C007C188C /* InvalidSample.json in Resources */ = {isa = PBXBuildFile; fileRef = 764BBFF623FC375C007C188C /* InvalidSample.json */; };
 		764BBFF923FC375C007C188C /* Sample.json in Resources */ = {isa = PBXBuildFile; fileRef = 764BBFF723FC375C007C188C /* Sample.json */; };
+		764BBFFD23FC3C7A007C188C /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 764BBFFC23FC3C7A007C188C /* Localizable.strings */; };
 		AC319BD68C7AD4AF359D1F43 /* Pods_Contact.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A985EBDAF7FE634DD8B39D26 /* Pods_Contact.framework */; };
 /* End PBXBuildFile section */
 
@@ -104,6 +105,7 @@
 		764BBFF323FC3692007C188C /* Validation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Validation.swift; sourceTree = "<group>"; };
 		764BBFF623FC375C007C188C /* InvalidSample.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = InvalidSample.json; sourceTree = "<group>"; };
 		764BBFF723FC375C007C188C /* Sample.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Sample.json; sourceTree = "<group>"; };
+		764BBFFC23FC3C7A007C188C /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
 		76DD141923FB15D400FE5AFE /* ContactCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactCell.swift; sourceTree = "<group>"; };
 		76DD141A23FB15D400FE5AFE /* ContactsListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsListViewController.swift; sourceTree = "<group>"; };
 		76DD141B23FB15D400FE5AFE /* ContactsListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsListViewModel.swift; sourceTree = "<group>"; };
@@ -173,6 +175,7 @@
 		764BBF2623FB0D56007C188C /* Contact */ = {
 			isa = PBXGroup;
 			children = (
+				764BBFFC23FC3C7A007C188C /* Localizable.strings */,
 				764BBFF223FC3692007C188C /* Validation */,
 				764BBFD823FC35F5007C188C /* Form */,
 				764BBFD523FC352C007C188C /* Common */,
@@ -470,6 +473,7 @@
 				764BBFF023FC35F5007C188C /* AddContactViewController.xib in Resources */,
 				764BBF3723FB0D58007C188C /* LaunchScreen.storyboard in Resources */,
 				764BBF3423FB0D58007C188C /* Assets.xcassets in Resources */,
+				764BBFFD23FC3C7A007C188C /* Localizable.strings in Resources */,
 				764BBFEB23FC35F5007C188C /* FormTextFieldCell.xib in Resources */,
 				764BBFA823FC2C7E007C188C /* Main.storyboard in Resources */,
 				764BBFA723FC2C7E007C188C /* LaunchScreen.storyboard in Resources */,
